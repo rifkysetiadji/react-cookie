@@ -3,13 +3,13 @@ import "./App.css";
 import axios from "axios";
 function App() {
   const onRequest = () => {
-    axios.post("/api/login").then((res) => {
+    axios.post("https://next-express-swart.vercel.app/api/login").then((res) => {
       console.log("res", res);
     });
   };
 
   const onSendBack = () => {
-    axios.get("/api/get", { withCredentials: true }).then((res) => {
+    axios.get("https://next-express-swart.vercel.app/api/get", { withCredentials: true }).then((res) => {
       console.log("res", res);
     });
   };
