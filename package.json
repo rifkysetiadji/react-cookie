@@ -2,7 +2,7 @@
   "name": "react-cookie",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://192.168.8.133:5000",
+  "proxy":"https://next-express-swart.vercel.app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
