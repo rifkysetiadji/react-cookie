@@ -3,7 +3,7 @@ import "./App.css";
 import axios from "axios";
 function App() {
   const onRequest = () => {
-    axios.post("https://next-express-swart.vercel.app/api/login").then((res) => {
+    axios.post("https://next-express-swart.vercel.app/api/login",{},{withCredentials: true}).then((res) => {
       console.log("res", res);
     });
   };
